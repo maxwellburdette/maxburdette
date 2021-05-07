@@ -108,6 +108,16 @@ body {
 	font-weight: 300;
 }
 
+.contactInfo ul li span a {
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s;
+}
+.contactInfo ul li span a:hover {
+	background: #fff;
+	color: #333;
+}
+
 .contactInfo.education li {
 	margin-bottom: 15px;
 }
