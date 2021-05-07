@@ -25,7 +25,11 @@ export default function ContactInfo() {
 						<FontAwesomeIcon icon={["fas", "globe"]} />
 					</span>
 					<span className="text">
-						<a href="https://maxburdette.netlify.app/" target="_blank">
+						<a
+							href="https://maxburdette.netlify.app/"
+							target="_blank"
+							rel="noreferrer"
+						>
 							maxburdette.netlify.app
 						</a>
 					</span>
@@ -39,6 +43,7 @@ export default function ContactInfo() {
 						<a
 							href="https://www.linkedin.com/in/maxwell-burdette-325432a6/"
 							target="_blank"
+							rel="noreferrer"
 						>
 							https://www.linkedin.com/in/maxwell-burdette-325432a6/
 						</a>
@@ -50,7 +55,11 @@ export default function ContactInfo() {
 						<FontAwesomeIcon icon={["fab", "github"]} />
 					</span>
 					<span className="text">
-						<a href="https://github.com/maxwellburdette" target="_blank">
+						<a
+							href="https://github.com/maxwellburdette"
+							target="_blank"
+							rel="noreferrer"
+						>
 							https://github.com/maxwellburdette
 						</a>
 					</span>
