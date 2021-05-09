@@ -156,6 +156,7 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
+	border-bottom: 1px solid #848c90;
 }
 
 p {
@@ -166,6 +167,10 @@ p ul {
 	position: relative;
 	display: flex;
 	flex-direction: column;
+}
+
+p ul:first-child {
+	margin-top: 15px;
 }
 
 p ul li {
