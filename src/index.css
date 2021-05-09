@@ -162,6 +162,18 @@ p {
 	color: #333;
 }
 
+p ul {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+p ul li {
+	list-style: none;
+	margin: 5px 5px;
+	color: #848c90;
+}
+
 .about .box {
 	display: flex;
 	flex-direction: row;
